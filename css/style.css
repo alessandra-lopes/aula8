@@ -1,0 +1,68 @@
+/* comentário em CSS é Ctrl + ; */
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap');
+
+
+body{
+    margin: 0;
+    /* Centralizar textos */
+    text-align: center;
+    /*Imagem de fundo*/
+    background-image: url(https://tinyurl.com/8b3ksze7);
+    /* Posicionamento */
+    background-position:center;
+    /*Remover repetição*/
+    background-repeat: no-repeat;
+    /* Altura do body */
+    height: 100vh; 
+    /* tamanho da imagem */
+    background-size: 100%;
+    /* fixar a imagem de fundo */
+    background-attachment: fixed;
+}
+
+#cabecalho {
+    height: 10vh;
+    background-color: #4b774b;
+    font-family: 'Gayathri', sans-serif;
+    font-size:large;
+}
+
+.texto_header {
+    position: relative;
+    top: 30%;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 200px 15px 200px;   
+}
+
+#video {
+    height: 90vh;
+    margin: 90px 15px 15px 15px;
+}
+
+.h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 200px 15px 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+#rodape {
+    height: 15vh;
+    background-color: #4b774b;
+    font-family: 'Gayathri', sans-serif;
+    padding-top: 5px;
+    margin-bottom: 35px;
+}
+
+.icone{
+    width: 60px;
+    padding: 20px 20px 20px 20px
+}
+
